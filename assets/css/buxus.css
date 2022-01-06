@@ -1,0 +1,1252 @@
+.pagelist_entertext {
+  color: grey;
+  font-style: italic;
+}
+
+div.pagelist_table {
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.pagelist_table table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+div.pagelist_table table.bodytable td.pagelist_td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page_list_input input {
+  width: 99%;
+}
+
+table.pagelist_suggestion {
+  border: 1px solid #dbdbdb;
+  padding: 0;
+  border-collapse: collapse;
+  width: 420px;
+}
+
+table.pagelist_suggestion td {
+  border: 0;
+  cursor: pointer;
+}
+
+div.pagelist_filter {
+  float: left;
+  padding: 15px 0 0 15px;
+  width: 100px;
+}
+
+table.pagelist_filter td,
+table.pagelist_filter_checkbox td {
+  border: 0;
+}
+
+img.pagelist_delete_all {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+span.pagelist_delete_all {
+  float: right;
+  text-align: right;
+}
+
+span.pagelist_delete_all_text {
+  font-weight: 700;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+table.bodytable td.pagelist_warnings {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+span.page_list_input ul.ui-autocomplete {
+  width: 410px;
+}
+
+span.page_list_input .ui-state-focus,
+span.page_list_input .ui-state-hover,
+span.page_list_input .ui-widget-content .ui-state-focus,
+span.page_list_input .ui-widget-content .ui-state-hover {
+  border: 1px solid #fff;
+  background-color: #ff9c00;
+  font-weight: 700;
+  color: #fff;
+}
+
+div.page_list_items_value_cell {
+  cursor: text;
+}
+
+div.page_list_items_actions .bind_link,
+div.page_list_items_actions .delete,
+div.page_list_items_actions .move_down,
+div.page_list_items_actions .move_up {
+  cursor: pointer;
+}
+
+span.pagelist_suggestion_text {
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+span.pagelist_suggestion_id {
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+  width: 100px;
+  float: left;
+}
+
+.page_list_read_only_value {
+  cursor: default;
+  font-weight: 700;
+}
+
+.bind_mode {
+  color: grey;
+}
+
+.page_list_wait_for_server {
+  float: left;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.ui-autocomplete li {
+  list-style: none;
+}
+
+.page-list-item .handle {
+  cursor: move;
+}
+
+.photo-file-box .file .image {
+  height: 200px;
+  cursor: move;
+}
+
+.photo-file-box .file .file-name {
+  overflow: hidden;
+  height: 50px;
+}
+
+.gallery-header {
+  margin: 0 5px 15px 0;
+  background: #eee;
+  padding: 15px 0 15px 0;
+  border-radius: 5px;
+}
+
+.gallery-header .gallery-thumbnail img {
+  max-width: 100px;
+}
+
+.gallery-ghost {
+  opacity: 0.5;
+}
+
+.nav-tn-exp {
+  background-color: #f3f3f3;
+  color: #777;
+  border-radius: 3px;
+  padding: 3px 0;
+}
+
+.nav-tn-exp a {
+  color: #777;
+}
+
+a.sort-link {
+  font-weight: 600;
+  color: #2a86d3;
+}
+
+.right-nav a {
+  color: #2a86d3;
+}
+
+.nav-pn-exp-A {
+  color: #09558e;
+}
+
+.nav-pn-exp-A,
+.nav-pn-exp-P {
+  padding: 5px 10px 0 10px;
+  font-weight: 700;
+}
+
+.nav-footer {
+  padding: 0;
+}
+
+td.nav-pn-exp-A,
+td.nav-pn-exp-P {
+  padding: 7px 0 7px 0;
+}
+
+td.nav-pn-A,
+td.nav-pn-P {
+  padding: 1px 0 0 0;
+}
+
+.right-nav a.insert-link {
+  color: #f87012;
+  padding: 0 0 0 15px;
+  font-weight: 700;
+}
+
+.nav-listBorder {
+  border: 0;
+}
+
+.nav-listBorder .nav-listBorder {
+  border-right: none;
+}
+
+.nav-listBorder td.nav-tt-l {
+  padding-top: 5px;
+}
+
+.nav-listBorder .nav-icon {
+  margin: 0 3px 0 5px;
+}
+
+.nav-listBorder .multi .nav-pn-A,
+.nav-listBorder .multi .nav-pn-P {
+  font-weight: 700;
+}
+
+.nav-listBorder a.nav-pn-A,
+.nav-listBorder a.nav-pn-P {
+  padding: 5px 10px 0 10px;
+  display: inline-block;
+  color: #09558e;
+}
+
+.nav-listBorder a.nav-pn-A:hover,
+.nav-listBorder a.nav-pn-P:hover,
+.nav-listBorder a.nav-pn-exp-A:hover,
+.nav-listBorder a.nav-pn-exp-P:hover {
+  text-decoration: underline;
+}
+
+.nav-listBorder a.nav-pn-P {
+  color: #737578;
+}
+
+.ui-corner-all,
+.ui-corner-right,
+.ui-corner-top,
+.ui-corner-tr {
+  border-radius: 0;
+}
+
+.ui-widget-content,
+.ui-widget-header {
+  border: 0;
+  background: #fff;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background: #f5f5f6;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: 1px solid #e7e7e7;
+  background: #fff;
+}
+
+.ui-tabs .ui-tabs-nav,
+.ui-tabs .ui-tabs-panel {
+  padding: 0;
+}
+
+.ui-widget {
+  font-size: 13px;
+}
+
+.buxus-components #main .form-group,
+.buxus-components .modal-dialog .form-group {
+  margin-bottom: 20px;
+}
+
+.buxus-components #main .form,
+.buxus-components .modal-dialog .form {
+  margin-bottom: -20px;
+  overflow-y: hidden;
+}
+
+.buxus-components #main .form-heading,
+.buxus-components .modal-dialog .form-heading {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #11162e;
+}
+
+.buxus-components #main .form-group--nomarg,
+.buxus-components .modal-dialog .form-group--nomarg {
+  margin-bottom: 0;
+}
+
+.buxus-components #main .ibox--nopad,
+.buxus-components .modal-dialog .ibox--nopad {
+  padding: 0 !important;
+}
+
+.buxus-components #main .collapsable,
+.buxus-components .modal-dialog .collapsable {
+  padding: 25px;
+}
+
+.buxus-components #main .collapsed .collapsable,
+.buxus-components .modal-dialog .collapsed .collapsable {
+  display: none;
+}
+
+.buxus-components #main select,
+.buxus-components .modal-dialog select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+.buxus-components #main select::-ms-expand,
+.buxus-components .modal-dialog select::-ms-expand {
+  display: none;
+}
+
+.buxus-components #main .select2-container .select2-selection,
+.buxus-components #main input[type="text"].form-control,
+.buxus-components #main input[type="number"].form-control,
+.buxus-components #main select,
+.buxus-components #main textarea.form-control,
+.buxus-components .modal-dialog .select2-container .select2-selection,
+.buxus-components .modal-dialog input[type="text"].form-control,
+.buxus-components .modal-dialog input[type="number"].form-control,
+.buxus-components .modal-dialog select,
+.buxus-components .modal-dialog textarea.form-control {
+  border: none;
+  height: 45px;
+  padding: 9px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgba(244, 245, 252, 0.71) !important;
+  color: #11162e;
+}
+
+.buxus-components #main .select2-container .select2-selection:read-only,
+.buxus-components #main input[type="text"].form-control:read-only,
+.buxus-components #main input[type="number"].form-control:read-only,
+.buxus-components #main select:read-only,
+.buxus-components #main textarea.form-control:read-only,
+.buxus-components .modal-dialog .select2-container .select2-selection:read-only,
+.buxus-components .modal-dialog input[type="text"].form-control:read-only,
+.buxus-components .modal-dialog input[type="number"].form-control:read-only,
+.buxus-components .modal-dialog select:read-only,
+.buxus-components .modal-dialog textarea.form-control:read-only {
+  background-color: rgba(244, 245, 252, 0.3);
+  color: rgba(17, 22, 46, 0.3);
+}
+
+.buxus-components
+  #main
+  .select2-container
+  .select2-selection.form-control--large,
+.buxus-components #main input[type="text"].form-control.form-control--large,
+.buxus-components #main input[type="number"].form-control.form-control--large,
+.buxus-components #main select.form-control--large,
+.buxus-components #main textarea.form-control.form-control--large,
+.buxus-components
+  .modal-dialog
+  .select2-container
+  .select2-selection.form-control--large,
+.buxus-components
+  .modal-dialog
+  input[type="text"].form-control.form-control--large,
+.buxus-components
+  .modal-dialog
+  input[type="number"].form-control.form-control--large,
+.buxus-components .modal-dialog select.form-control--large,
+.buxus-components .modal-dialog textarea.form-control.form-control--large {
+  padding: 8px 16px 8px;
+  font-size: 16px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.buxus-components
+  #main
+  .select2-container
+  .select2-selection
+  .select2-selection__rendered,
+.buxus-components
+  #main
+  input[type="text"].form-control
+  .select2-selection__rendered,
+.buxus-components
+  #main
+  input[type="number"].form-control
+  .select2-selection__rendered,
+.buxus-components #main select .select2-selection__rendered,
+.buxus-components #main textarea.form-control .select2-selection__rendered,
+.buxus-components
+  .modal-dialog
+  .select2-container
+  .select2-selection
+  .select2-selection__rendered,
+.buxus-components
+  .modal-dialog
+  input[type="text"].form-control
+  .select2-selection__rendered,
+.buxus-components
+  .modal-dialog
+  input[type="number"].form-control
+  .select2-selection__rendered,
+.buxus-components .modal-dialog select .select2-selection__rendered,
+.buxus-components
+  .modal-dialog
+  textarea.form-control
+  .select2-selection__rendered {
+  padding-left: 0;
+  color: #11162e;
+}
+
+.buxus-components
+  #main
+  .select2-container
+  .select2-selection.form-control--without-padding,
+.buxus-components
+  #main
+  input[type="text"].form-control.form-control--without-padding,
+.buxus-components
+  #main
+  input[type="number"].form-control.form-control--without-padding,
+.buxus-components #main select.form-control--without-padding,
+.buxus-components #main textarea.form-control.form-control--without-padding,
+.buxus-components
+  .modal-dialog
+  .select2-container
+  .select2-selection.form-control--without-padding,
+.buxus-components
+  .modal-dialog
+  input[type="text"].form-control.form-control--without-padding,
+.buxus-components
+  .modal-dialog
+  input[type="number"].form-control.form-control--without-padding,
+.buxus-components .modal-dialog select.form-control--without-padding,
+.buxus-components
+  .modal-dialog
+  textarea.form-control.form-control--without-padding {
+  padding: 0;
+}
+
+.buxus-components
+  #main
+  .select2-container
+  .select2-selection.form-control--without-background,
+.buxus-components
+  #main
+  input[type="text"].form-control.form-control--without-background,
+.buxus-components
+  #main
+  input[type="number"].form-control.form-control--without-background,
+.buxus-components #main select.form-control--without-background,
+.buxus-components #main textarea.form-control.form-control--without-background,
+.buxus-components
+  .modal-dialog
+  .select2-container
+  .select2-selection.form-control--without-background,
+.buxus-components
+  .modal-dialog
+  input[type="text"].form-control.form-control--without-background,
+.buxus-components
+  .modal-dialog
+  input[type="number"].form-control.form-control--without-background,
+.buxus-components .modal-dialog select.form-control--without-background,
+.buxus-components
+  .modal-dialog
+  textarea.form-control.form-control--without-background {
+  background: 0 0;
+}
+
+.buxus-components
+  #main
+  .select2-container
+  .select2-selection.form-control--rounded,
+.buxus-components #main input[type="text"].form-control.form-control--rounded,
+.buxus-components #main input[type="number"].form-control.form-control--rounded,
+.buxus-components #main select.form-control--rounded,
+.buxus-components #main textarea.form-control.form-control--rounded,
+.buxus-components
+  .modal-dialog
+  .select2-container
+  .select2-selection.form-control--rounded,
+.buxus-components
+  .modal-dialog
+  input[type="text"].form-control.form-control--rounded,
+.buxus-components
+  .modal-dialog
+  input[type="number"].form-control.form-control--rounded,
+.buxus-components .modal-dialog select.form-control--rounded,
+.buxus-components .modal-dialog textarea.form-control.form-control--rounded {
+  border-radius: 18px;
+}
+
+.buxus-components #main textarea.form-control,
+.buxus-components .modal-dialog textarea.form-control {
+  padding: 14px;
+  resize: none;
+}
+
+.buxus-components #main .ibox--dark .select2-container .select2-selection,
+.buxus-components #main .ibox--dark input[type="text"].form-control,
+.buxus-components #main .ibox--dark input[type="number"].form-control,
+.buxus-components #main .ibox--dark textarea.form-control,
+.buxus-components
+  .modal-dialog
+  .ibox--dark
+  .select2-container
+  .select2-selection,
+.buxus-components .modal-dialog .ibox--dark input[type="text"].form-control,
+.buxus-components .modal-dialog .ibox--dark input[type="number"].form-control,
+.buxus-components .modal-dialog .ibox--dark textarea.form-control {
+  background: rgba(216, 216, 216, 0.25) !important;
+  border: 0;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.buxus-components #main .ibox--dark .btn-primary,
+.buxus-components #main .ibox--dark .btn.btn-primary,
+.buxus-components .modal-dialog .ibox--dark .btn-primary,
+.buxus-components .modal-dialog .ibox--dark .btn.btn-primary {
+  background-color: transparent;
+}
+
+.buxus-components #main .select2-container,
+.buxus-components .modal-dialog .select2-container {
+  width: 100% !important;
+}
+
+.buxus-components #main .custom-width-130 > .select2-container,
+.buxus-components .modal-dialog .custom-width-130 > .select2-container {
+  width: 130px !important;
+}
+
+.buxus-components #main .custom-width-200 > .select2-container,
+.buxus-components .modal-dialog .custom-width-200 > .select2-container {
+  width: 200px !important;
+}
+
+.buxus-components #main .custom-width-300 > .select2-container,
+.buxus-components .modal-dialog .custom-width-300 > .select2-container {
+  width: 300px !important;
+}
+
+.buxus-components #main .form-group > label,
+.buxus-components #main .form-label,
+.buxus-components .modal-dialog .form-group > label,
+.buxus-components .modal-dialog .form-label {
+  font-weight: 400;
+  font-size: 13px;
+  color: #11162e;
+}
+
+.buxus-components #main .checkbox-container,
+.buxus-components .modal-dialog .checkbox-container {
+  display: inline-block;
+  position: relative;
+  height: 16px;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.buxus-components #main .checkbox-container input,
+.buxus-components .modal-dialog .checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.buxus-components #main .checkbox-container .checkmark,
+.buxus-components .modal-dialog .checkbox-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.buxus-components #main .checkbox-container .checkmark:after,
+.buxus-components .modal-dialog .checkbox-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.buxus-components #main .checkbox-container:hover,
+.buxus-components .modal-dialog .checkbox-container:hover {
+  color: #358cff;
+}
+
+.buxus-components #main .checkbox-container input:checked ~ .checkmark:after,
+.buxus-components
+  .modal-dialog
+  .checkbox-container
+  input:checked
+  ~ .checkmark:after {
+  display: block;
+}
+
+.buxus-components #main .checkbox-container .checkmark:after,
+.buxus-components .modal-dialog .checkbox-container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 8px;
+  border: solid #11162e;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.buxus-components
+  #main
+  .checkbox-container.checkbox--blue
+  input:checked
+  ~ .checkmark,
+.buxus-components
+  .modal-dialog
+  .checkbox-container.checkbox--blue
+  input:checked
+  ~ .checkmark {
+  background: #358cff;
+}
+
+.buxus-components
+  #main
+  .checkbox-container.checkbox--blue
+  input:checked
+  ~ .checkmark:after,
+.buxus-components
+  .modal-dialog
+  .checkbox-container.checkbox--blue
+  input:checked
+  ~ .checkmark:after {
+  display: block;
+}
+
+.buxus-components #main .checkbox-container.checkbox--blue .checkmark:after,
+.buxus-components
+  .modal-dialog
+  .checkbox-container.checkbox--blue
+  .checkmark:after {
+  border-color: #fff;
+}
+
+.buxus-components #main .ui-datepicker,
+.buxus-components .modal-dialog .ui-datepicker {
+  border: #aaa 1px solid;
+  padding: 15px;
+}
+
+.buxus-components #main .ui-datepicker .ui-state-default,
+.buxus-components #main .ui-datepicker .ui-widget-header .ui-state-default,
+.buxus-components .modal-dialog .ui-datepicker .ui-state-default,
+.buxus-components
+  .modal-dialog
+  .ui-datepicker
+  .ui-widget-header
+  .ui-state-default {
+  background: 0 0;
+  border: 1px solid #eee;
+}
+
+.buxus-components #main .ui-datepicker .ui-state-default:hover,
+.buxus-components
+  #main
+  .ui-datepicker
+  .ui-widget-header
+  .ui-state-default:hover,
+.buxus-components .modal-dialog .ui-datepicker .ui-state-default:hover,
+.buxus-components
+  .modal-dialog
+  .ui-datepicker
+  .ui-widget-header
+  .ui-state-default:hover {
+  background: rgba(224, 225, 242, 0.5);
+}
+
+.buxus-components #main .ui-datepicker .ui-state-active,
+.buxus-components #main .ui-datepicker .ui-widget-header .ui-state-active,
+.buxus-components .modal-dialog .ui-datepicker .ui-state-active,
+.buxus-components
+  .modal-dialog
+  .ui-datepicker
+  .ui-widget-header
+  .ui-state-active {
+  border: 1px solid #aaa;
+  background: rgba(224, 225, 242, 0.8);
+}
+
+.buxus-components #main .reset_button,
+.buxus-components .modal-dialog .reset_button {
+  display: none;
+}
+
+.buxus-components #main .form-group.is_filled .reset_button,
+.buxus-components .modal-dialog .form-group.is_filled .reset_button {
+  display: block;
+}
+
+.buxus-components #main button.close,
+.buxus-components .modal-dialog button.close {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../images/icon-close-dark.svg) center no-repeat;
+  opacity: 0.85;
+}
+
+.buxus-components #main button.close:active,
+.buxus-components #main button.close:hover,
+.buxus-components .modal-dialog button.close:active,
+.buxus-components .modal-dialog button.close:hover {
+  opacity: 1;
+}
+
+.buxus-components #main .quantity,
+.buxus-components .modal-dialog .quantity {
+  position: relative;
+}
+
+.buxus-components
+  #main
+  .quantity
+  input[type="number"]::-webkit-inner-spin-button,
+.buxus-components
+  #main
+  .quantity
+  input[type="number"]::-webkit-outer-spin-button,
+.buxus-components
+  .modal-dialog
+  .quantity
+  input[type="number"]::-webkit-inner-spin-button,
+.buxus-components
+  .modal-dialog
+  .quantity
+  input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buxus-components #main .quantity input[type="number"],
+.buxus-components .modal-dialog .quantity input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+  padding-right: 0;
+}
+
+.buxus-components #main .quantity input[type="number"]:focus,
+.buxus-components .modal-dialog .quantity input[type="number"]:focus {
+  outline: 0;
+}
+
+.buxus-components #main .quantity .quantity-nav,
+.buxus-components .modal-dialog .quantity .quantity-nav {
+  position: absolute;
+  height: 37px;
+  right: 8px;
+  top: 3px;
+}
+
+.buxus-components #main .quantity .quantity-button,
+.buxus-components .modal-dialog .quantity .quantity-button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  width: 20px;
+  text-align: center;
+  background: url(../images/expand.svg) center no-repeat;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.buxus-components #main .quantity .quantity-button.quantity-up,
+.buxus-components .modal-dialog .quantity .quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.buxus-components #main .quantity .quantity-button.quantity-down,
+.buxus-components .modal-dialog .quantity .quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+}
+
+.buxus-components #main .radio_container,
+.buxus-components .modal-dialog .radio_container {
+  display: inline-block;
+  position: relative;
+  margin-right: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.buxus-components #main .radio_container input,
+.buxus-components .modal-dialog .radio_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.buxus-components #main .radio_container .radio_container-label,
+.buxus-components .modal-dialog .radio_container .radio_container-label {
+  display: block;
+  padding: 7px 18px 5px 18px;
+  border-radius: 16px;
+  border: 1px solid #979797;
+  background: 0 0;
+  border-color: rgba(151, 151, 151, 0.6);
+  color: #11162e;
+  font-size: 13px;
+}
+
+.buxus-components #main .radio_container:hover input ~ .radio_container-label,
+.buxus-components
+  .modal-dialog
+  .radio_container:hover
+  input
+  ~ .radio_container-label {
+  background-color: rgba(240, 240, 240, 0.7);
+}
+
+.buxus-components #main .radio_container input:checked ~ .radio_container-label,
+.buxus-components
+  .modal-dialog
+  .radio_container
+  input:checked
+  ~ .radio_container-label {
+  background-color: #358cff;
+  border-color: transparent;
+  color: #fff;
+}
+
+.select2-container .select2-selection .select2-selection__arrow {
+  right: 18px;
+}
+
+.select2-container .select2-selection .select2-selection__arrow b {
+  border: none;
+  background: url(../images/expand.svg) center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.select2-container .select2-selection .select2-selection__clear {
+  display: none;
+}
+
+.select2-container.select2-container--open
+  .select2-selection
+  .select2-selection__arrow
+  b {
+  transform: rotate(180deg);
+}
+
+.select2-container.select2-container--open .select2-dropdown {
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.11);
+  z-index: 3000;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown.select2-dropdown--below {
+  margin-top: 7px;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown.select2-dropdown--below::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -18px;
+  border-color: transparent;
+  right: 30px;
+  border-bottom-color: #fff;
+  border-style: solid;
+  border-width: 9px 6px;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown.select2-dropdown--above {
+  margin-top: -7px;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown.select2-dropdown--above::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -18px;
+  border-color: transparent;
+  right: 30px;
+  border-top-color: #fff;
+  border-style: solid;
+  border-width: 9px 6px;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown
+  .select2-results
+  > .select2-results__options {
+  padding: 6px 0;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown
+  .select2-results
+  > .select2-results__options
+  .select2-results__option {
+  color: #11162e;
+  font-size: 13px;
+  padding: 8px 25px;
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown
+  .select2-results
+  > .select2-results__options
+  .select2-results__option.select2-results__option--highlighted {
+  background-color: rgba(53, 140, 255, 0.05);
+}
+
+.select2-container.select2-container--open
+  .select2-dropdown
+  .select2-results
+  > .select2-results__options
+  .select2-results__option[aria-selected="true"] {
+  background-color: rgba(53, 140, 255, 0.05);
+  color: #245fc4;
+}
+
+#perPage + .select2-container,
+.buxus-components #main #perPage + .select2-container {
+  width: 70px !important;
+  margin-left: 10px;
+}
+
+.buxus-components .datetimepicker th span.glyphicon {
+  vertical-align: top !important;
+  font-family: inherit !important;
+}
+
+.buxus-components .datetimepicker th span.glyphicon.glyphicon-arrow-left {
+  content: "<" !important;
+}
+
+.buxus-components .datetimepicker th span.glyphicon.glyphicon-arrow-right {
+  content: ">" !important;
+}
+
+.wrapper-content {
+  padding: 20px 10px;
+}
+
+.buxus-bg {
+  background: #11162e;
+}
+
+.buxus-bg .nav > li > a {
+  color: #fff;
+}
+
+.debug-active .buxus-bg {
+  background: #bd0808;
+}
+
+.buxus-copyright {
+  word-break: break-word;
+}
+
+.mini-navbar .buxus-copyright {
+  display: none;
+}
+
+.mini-navbar .nav-second-level {
+  padding: 0;
+}
+
+.mini-navbar
+  .nav-second-level
+  .navbar-default
+  .nav
+  > li
+  > .nav-second-level
+  li
+  a {
+  border-radius: 0;
+}
+
+.navbar-form-custom .form-control {
+  color: #eee;
+}
+
+.fixed-nav .pace .pace-progress {
+  left: 0;
+}
+
+.navbar-brand {
+  padding: 20px 15px;
+}
+
+.nav-second-level {
+  border-radius: 0 10px 10px 0;
+  border-top: 0;
+  margin: 10px 0 10px 0;
+}
+
+.nav-second-level li {
+  padding-left: 62px;
+}
+
+.nav-second-level li > a {
+  padding: 10px 10px 10px 12px;
+  color: #11162e;
+  font-weight: 400;
+  font-size: 13px;
+  border-bottom: 0;
+  border-left: #358cff 1px solid;
+}
+
+.nav-second-level li > a:hover {
+  background-color: transparent !important;
+  color: #9ad;
+  border-left-color: #9ad;
+}
+
+.nav-second-level li:last-child {
+  margin: 0;
+}
+
+body.mini-navbar .nav-second-level {
+  -moz-box-shadow: 2px 2px 7px #ddd;
+  -webkit-box-shadow: 2px 2px 7px #ddd;
+  box-shadow: 2px 2px 7px #ddd;
+}
+
+body.mini-navbar .nav-second-level li {
+  padding-left: 0;
+  background-color: #f4f5fc;
+}
+
+.question {
+  cursor: pointer;
+}
+
+.page-toolbar {
+  margin: 0 15px 15px;
+}
+
+.inline-input {
+  width: 100%;
+}
+
+.inline-input input {
+  width: 100%;
+  margin: -4px;
+}
+
+.textarea-preview {
+  border: 1px solid #e5e6e7;
+  border-radius: 1px;
+  display: block;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.inline-value {
+  display: flex;
+  height: 5px;
+  float: left;
+}
+
+.inline-edit-toggle {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.breadcrumb {
+  font-size: 12px;
+}
+
+.page_tag input {
+  height: 20px;
+  font-size: 11px;
+  padding: 2px;
+}
+
+.basic-page-info {
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.basic-page-info .row {
+  margin: 5px 0;
+}
+
+#idfield,
+#mainSearchPageName,
+#top-search {
+  margin: 15px 0;
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(216, 216, 216, 0.25);
+  color: #fff;
+}
+
+#mainSearchPageName {
+  margin: 0;
+}
+
+#mainSearchPageName.wait {
+  background-image: url(../images/Spinner-1s.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+#buxus-search {
+  position: relative;
+}
+
+#buxus-search .search_suggest {
+  width: 460px;
+  background: #fff;
+  border: 1px solid #a1a1a1;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: 8px;
+  z-index: 600;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+#buxus-search .search_suggest .section {
+  margin: 0 0 5px 0;
+}
+
+#buxus-search .search_suggest .title {
+  font-size: 12px;
+  color: #aaa;
+  padding: 0 0 4px 0;
+  margin: 5px 5px 1px 5px;
+  font-style: italic;
+}
+
+#buxus-search .search_suggest .suggest-item {
+  padding: 1px 5px 1px 15px;
+}
+
+#buxus-search .search_suggest .suggest-item a {
+  display: block;
+  color: #000;
+}
+
+#buxus-search .search_suggest .suggest-item:hover {
+  background-color: #888;
+  color: #fff;
+}
+
+#buxus-search .search_suggest .suggest-active {
+  background-color: #2b528a;
+  color: #fff;
+}
+
+#buxus-search .search_suggest .suggest-active a,
+#buxus-search .search_suggest .suggest-item:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+table.bodytable td.invalid_property .colon > th,
+table.bodytable td.invalid_property > th,
+table.buxus-table tr.invalid_property > th {
+  color: #b02500;
+}
+
+body.login_page #wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.login_page #wrapper > .navbar-default {
+  position: static;
+  order: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body.login_page #wrapper > .navbar-default .buxus-copyright .col-sm-offset-1 {
+  margin-left: 0;
+  width: 100% !important;
+}
+
+body.login_page #wrapper > #page-wrapper {
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 0 !important;
+}
+
+body.login_page #wrapper > #page-wrapper .navbar-fixed-top {
+  padding: 10px;
+}
+
+body.login_page #wrapper > #page-wrapper > .row.border-bottom {
+  border-bottom: none !important;
+}
+
+/*# sourceMappingURL=buxus.css.map */

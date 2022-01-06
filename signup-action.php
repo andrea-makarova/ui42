@@ -58,11 +58,6 @@ try {
         }
     }
 
-    $targetDir = "assets/";
-    $fileName = basename($_FILES["file"]["name"]);
-    $targetFilePath = $targetDir . $fileName;
-    $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
-
     function rand_string($length)
     {
 

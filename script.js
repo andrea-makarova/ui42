@@ -8,13 +8,8 @@ var headingFormUser = document.querySelector(".form-user-heading");
 var topMenu = document.querySelector(".navbar-primary");
 var downArrow = document.querySelector(".menu .icon--arrow");
 var menuLink = document.querySelector(".menu h2");
-//var state = document.querySelectorAll(".state span");
 var credentials = document.querySelector(".passwords-modal");
 var passwords = document.querySelector(".passwords");
-
-/*   if(state.forEach.innerHTML.indexOf("PROGRAMMING") !== -1) {
-    state.style.display = "none";
-} */
 
 function toUser() {
   sectionForm.classList.add("none");

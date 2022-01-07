@@ -18,7 +18,7 @@ if(!isset($_SESSION['id'])){
 
 <header class="nav-header">
     <section class="navigation">
-    <img class="logo" src="assets/images/logo.svg" alt="ui42 logo">
+    <a href="tasks.php"><img class="logo" src="assets/images/logo.svg" alt="ui42 logo"></a>
     <div onclick="toggleTopNav()" class="menu">
     <h2>Moje ui42</h2>
     <i class="top-icon fa fa-2x icon--arrow"></i>

@@ -121,7 +121,7 @@ require_once('components/top.php');
         </div>
 
         <footer class="footer bottom">
-            <p class="copyright">Copyright © 1999-2021 ui42. All rights reserved.</p>
+            <p class="copyright">Copyright © 1997-2022 ui42. All rights reserved.</p>
         </footer>
         <script src="script.js"></script>
 </body>

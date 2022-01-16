@@ -1231,6 +1231,66 @@ form.tracking {
   font-weight: bold;
 }
 
+.multiple-choice {
+  width: 190px;
+height: 197px;
+background: #FFFFFF;
+box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.11);
+border-radius: 4px;
+padding: 10px 19px;
+z-index: 5;
+}
+
+.dropdown-row {
+  display: flex;
+  justify-content: space-between;
+  width: 151px;
+  margin-bottom: 5px;
+}
+
+.dropdown-row button.btn.btn-secondary {
+  width: 47px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.multiple-choice hr {
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.date-filter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.date-filter h3 {
+  font-weight: bold;
+font-size: 13px;
+color: #020C26;
+padding-bottom: 7.5px;
+margin-bottom: 0;
+cursor: pointer;
+}
+
+
+.date-filter h3.underlined {
+
+  color: #2F80ED;
+  border-bottom: 1px solid #358CFF;
+}
+
+.dropdown-row button.btn.btn-secondary.fill {
+  color: white;
+  background: #2F80ED;
+  border: none;
+}
 .pace-done .nav-header {
   transition: all 0.5s;
 }

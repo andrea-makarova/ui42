@@ -10,6 +10,24 @@ var downArrow = document.querySelector(".menu .icon--arrow");
 var menuLink = document.querySelector(".menu h2");
 var credentials = document.querySelector(".passwords-modal");
 var passwords = document.querySelector(".passwords");
+var yearsHeading = document.querySelector(".years-heading");
+var monthsHeading = document.querySelector(".months-heading");
+var monthsSection = document.querySelector("div.months");
+var yearsSection = document.querySelector("div.years");
+
+function displayYears() {
+  monthsHeading.classList.remove("underlined");
+  yearsHeading.classList.add("underlined");
+  monthsSection.classList.add("none");
+  yearsSection.classList.remove("none");
+}
+
+function displayMonths() {
+  monthsHeading.classList.add("underlined");
+  yearsHeading.classList.remove("underlined");
+  monthsSection.classList.remove("none");
+  yearsSection.classList.add("none");
+}
 
 function toUser() {
   sectionForm.classList.add("none");
@@ -20,6 +38,10 @@ function toUser() {
 
 function closeCredentials() {
   passwords.style.display = "none";
+}
+
+function fillButton() {
+  event.target.classList.toggle("fill");
 }
 
 function toggleTopNav() {

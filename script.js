@@ -14,6 +14,17 @@ var yearsHeading = document.querySelector(".years-heading");
 var monthsHeading = document.querySelector(".months-heading");
 var monthsSection = document.querySelector("div.months");
 var yearsSection = document.querySelector("div.years");
+var inProgress = document.querySelectorAll("span");
+
+
+var i;
+for (i = 0; i < inProgress.length; i++) {
+  if (inProgress[i].innerText == "PROGRAMMING IN PROGRESS") {
+    inProgress[i].style.color = "#FF8134";
+    inProgress[i].parentElement.parentElement.style.backgroundColor = "rgba(255, 129, 52, 0.1)";
+  }
+  
+}
 
 function displayYears() {
   monthsHeading.classList.remove("underlined");
@@ -62,8 +73,3 @@ window.onclick = function (eventOne) {
   }
 };
 
-window.onclick = function (eventTwo) {
-  if (eventTwo.target !== credentials) {
-    passwords.style.display = "none";
-  }
-};

@@ -205,7 +205,7 @@ require_once('components/top.php');
                                     </td>
                                     <td class="state">
                                         <span>
-                                            PROGRAMMING IN PROGESS
+                                            PROGRAMMING IN PROGRESS
                                         </span>
                                     </td>
                                 </tr>

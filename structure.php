@@ -21,31 +21,31 @@ require_once('components/top.php');
                     </a>
                 </li>
                 <li class="inactive">
-                    <a href="tasks.php" title="Tasky" class="nav-link">
+                    <a href="haydnova.php" title="Haydnova" class="nav-link">
                         <i class="nav-icon fa fa-2x nav-icon--home"></i>
                         <span class="nav-label">Haydnova</span>
                     </a>
                 </li>
                 <li class="inactive">
-                    <a href="tasks.html" title="Tasky" class="nav-link">
+                    <a href="h&s.php" title="Hardware & Software" class="nav-link">
                         <i class="nav-icon fa fa-2x nav-icon--micro-sd-card"></i>
                         <span class="nav-label">Hardware & Software</span>
                     </a>
                 </li>
                 <li class="inactive">
-                    <a href="tasks.html" title="Tasky" class="nav-link">
+                    <a href="documents.php" title="Postupy & Dokumenty" class="nav-link">
                         <i class="nav-icon fa fa-2x nav-icon--text-document"></i>
                         <span class="nav-label">Postupy & Dokumenty</span>
                     </a>
                 </li>
                 <li class="inactive">
-                    <a href="tasks.html" title="Tasky" class="nav-link">
+                    <a href="teams.php" title="Tímy" class="nav-link">
                         <i class="nav-icon fa fa-2x nav-icon--users nav-icon--light"></i>
                         <span class="nav-label">Tímy</span>
                     </a>
                 </li>
                 <li class="inactive">
-                    <a href="tasks.html" title="Tasky" class="nav-link">
+                    <a href="about.php" title="O ui42" class="nav-link">
                         <i class="nav-icon fa fa-2x nav-icon--share"></i>
                         <span class="nav-label">O ui42</span>
                     </a>
@@ -90,7 +90,7 @@ require_once('components/top.php');
                 <div class="ibox row">
                     <div class="ibox-title col-xs-10">
                         <ul class="breadcrumbs">
-                            <li><span>Vedenie</span></li>
+                            <li><span>Organizačná štruktúra</span></li>
                         </ul>
                     </div>
 

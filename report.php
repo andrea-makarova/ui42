@@ -407,8 +407,8 @@ require_once('components/top.php');
                             <tbody>
                                 <tr>
                                     <td>
-                                        <span class="black">
-                                            Blogové obrázky
+                                        <span >
+                                         <a class="black underline" href="task.php">Blogové obrázky</a>
                                         </span>
                                     </td>
                                     <td class="">
